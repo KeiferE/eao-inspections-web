@@ -17,7 +17,7 @@
   </div>
   <div class="profile__card__contact">
     <h4>Email</h4>
-    <a href="mailto:{{profile.email}}">{{profile.email | capitalizeEmail}}</a>
+    <a href="mailto:{{profile.email}}">{{profile.email}}</a>
     <span *ngIf="!profile.access.isAdmin && !profile.access.isSuperAdmin" class="profile__card__contact--disclaimer"><i>*Contact Administration below to change personal information.</i></span>
   </div>
 </div>

@@ -20,7 +20,7 @@
             <img *ngIf="!user.image" class="table__img" src="../../../assets/team-member.png" /> {{user.firstName + " " + user.lastName}}
           </div>
           <div class="table-row-item" data-header="Email">
-            {{user.email | capitalizeEmail}}
+            {{user.email}}
           </div>
           <div class="table-row-item permission" data-header="Permission">
             {{user.permission}}
